@@ -1,48 +1,16 @@
-# GPT + DALL-E + WhatsApp = AI Assistant 🚀
+Here’s a draft README for your **KashKudi** repository:
 
-![Docker](https://github.com/askrella/whatsapp-chatgpt/actions/workflows/docker.yml/badge.svg)
-![Prettier](https://github.com/askrella/whatsapp-chatgpt/actions/workflows/prettier.yml/badge.svg)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+---
 
-[![Discord Invite](https://dcbadge.vercel.app/api/server/9VJaRXKwd3)](https://discord.gg/9VJaRXKwd3)
+# KashKudi
 
-This WhatsApp bot uses OpenAI's GPT and DALL-E 2 to respond to user inputs.
+**KashKudi** is a WhatsApp-based financial chatbot designed to offer seamless and convenient banking services directly through your chat. With KashKudi, you can easily check your account balance, transfer money, pay bills, and manage your finances, all within WhatsApp.
 
-You can talk to the bot in voice messages, the bot will transcribe and respond. :robot:
+This project is built on top of the **[askrella/whatsapp-chatgpt](https://github.com/askrella/whatsapp-chatgpt)** repo, expanding its functionality to include financial services while maintaining an intuitive chat-based interface.
 
-<p align="center">
-<img width="904" alt="Whatsapp ChatGPT" src="https://user-images.githubusercontent.com/6507938/220681521-17a12a41-44df-4d51-b491-f6a83871fc9e.png">
-</p>
-
-## Requirements
-
--   Node.js (18 or newer)
--   A recent version of npm
--   An [OpenAI API key](https://beta.openai.com/signup)
--   A WhatsApp account
-
-## Documentation
-
-In the documentation you can find more information about how to install, configure and use this bot.
-
-<span style="font-size: 1.4rem;">➡️ https://askrella.github.io/whatsapp-chatgpt</span>
-
-## Disclaimer
-
-The operations performed by this bot are not free. You will be charged by OpenAI for each request you make.
-
-This bot uses Puppeteer to run a real instance of Whatsapp Web to avoid getting blocked.
-
-NOTE: We can't guarantee that you won't be blocked using this method, although it does work. WhatsApp does not allow bots or unofficial clients on its platform, so this should not be considered completely safe.
-
-## Contributors
-
-<a href="https://github.com/askrella/whatsapp-chatgpt/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=askrella/whatsapp-chatgpt" />
-</a>
-
-## Used libraries
-
--   https://github.com/transitive-bullshit/chatgpt-api
--   https://github.com/pedroslopez/whatsapp-web.js
--   https://github.com/askrella/speech-rest-api
+## Features
+- **Balance Check**: Get real-time updates on your account balance.
+- **Transaction History**: View your recent transactions with a simple command.
+- **Money Transfers**: Transfer money to friends, family, or businesses directly from WhatsApp.
+- **Bill Payments**: Pay utility bills, recharge your phone, and more, all within chat.
+- **Security**: End-to-end encryption ensures your financial data is always secure.
