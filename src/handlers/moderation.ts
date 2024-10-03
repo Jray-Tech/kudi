@@ -10,12 +10,13 @@ import { openai } from "../providers/openai";
  */
 const moderateIncomingPrompt = async (prompt: string) => {
 	cli.print("[MODERATION] Checking user prompt...");
+	console.log(prompt);
 	const moderationResponse = await openai.moderations.create({
 		input: prompt
 	});
 
-	const moderationResponseData = moderationResponse.data;
-	const moderationResponseCategories = moderationResponseData.results[0].categories;
+	console.log(moderationResponse);
+	const moderationResponseCategories = moderationResponse.results[0].categories;
 	const blackListedCategories = config.promptModerationBlacklistedCategories;
 
 	// Print categories as [ category: true/false ]
